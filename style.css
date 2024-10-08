@@ -14,7 +14,9 @@
     
 }
 
-.logo{
+.bilder{
+    max-width: 100px;
+    height: auto;
     border: 2px solid black;
 }
 
@@ -24,8 +26,12 @@
     height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     justify-content: space-around; /* Sprider ut länkarna jämnt */
     align-items: center; /* Vertikalt centrerar loggorna */
     margin: 20px auto; /* För att centrera på sidan */
+}
+
+#smhi-id{
+    align-items: center;
 }
