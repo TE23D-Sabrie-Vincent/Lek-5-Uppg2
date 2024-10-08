@@ -14,11 +14,18 @@
     
 }
 
-.länkar{
+.logo{
     border: 2px solid black;
+}
+
+.länkar{
+    border: 3px solid black;
     width: 1425px;
     height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    justify-content: space-around; /* Sprider ut länkarna jämnt */
+    align-items: center; /* Vertikalt centrerar loggorna */
+    margin: 20px auto; /* För att centrera på sidan */
 }
