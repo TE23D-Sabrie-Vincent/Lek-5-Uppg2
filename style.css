@@ -15,12 +15,14 @@
 }
 
 .bilder{
-    max-width: 100px;
+    max-width: 175px;
     height: auto;
     border: 2px solid black;
+    
+
 }
 
-.länkar{
+.div-lådor{
     border: 3px solid black;
     width: 1425px;
     height: 100px;
@@ -32,6 +34,11 @@
     margin: 20px auto; /* För att centrera på sidan */
 }
 
-#smhi-id{
-    align-items: center;
+.vinter-klass
+{
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+    font-size: 3.5em;
+    color: black;
+    margin-top: 0;
 }
