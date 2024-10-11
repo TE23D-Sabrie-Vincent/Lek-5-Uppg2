@@ -10,7 +10,7 @@
     border: 5px solid black;
     width: 100%;
     height: 500px;    
-    margin: 60px auto;
+    margin: 15px auto;
     
 }
 
@@ -41,4 +41,32 @@
     font-size: 3.5em;
     color: black;
     margin-top: 0;
+}
+
+.mellan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.vänster-div, .höger-div {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    gap: 10px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.höger-div{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    gap: 10px;
+    width: 200px;
 }
