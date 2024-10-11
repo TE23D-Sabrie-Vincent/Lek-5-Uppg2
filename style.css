@@ -70,3 +70,17 @@
     gap: 10px;
     width: 200px;
 }
+
+#main{
+    border: 3px solid black;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+
+}
+
+#kontakta-oss{
+    text-align: center;
+    border: 2px solid black;
+    width: 1242.5px;
+    margin: 10px auto;
+}
